@@ -1,18 +1,18 @@
 body {
   font-family: "Montserrat", sans-serif;
+  color: #ffffff;
 }
 
 .navbar {
   font-size: 1.5vw;
   background-color: rgba(30, 30, 30, 0.4);
 }
-
 .nav-link {
   color: #ffffff !important;
 }
 
 .active {
-  font-weight: 500;
+  font-weight: 600 !important;
 }
 
 a:hover {
@@ -23,7 +23,14 @@ a:hover {
   background-image: url(/visuals/hero-section.png);
   background-size: auto;
   background-repeat: no-repeat;
-  height: 800px;
+  height: auto;
+  padding-bottom: 90px;
+}
+
+.hero-section img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .hero-text {
@@ -34,11 +41,70 @@ h1 {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 9vw;
   font-weight: 800;
-  color: #ffffff;
+
   max-width: 650px;
 }
 
-.hero-p {
-  font-size: 2vw;
+h2 {
+  font-weight: 800;
+  font-size: 5vw;
+}
+
+p {
+  font-size: 2vw !important;
+  line-height: 170%;
+}
+
+.about-section {
+  background-color: #1e1e1e;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.about-section .green {
+  position: absolute;
+  left: 0;
+}
+
+.about-section .blue {
+  position: absolute;
+  right: 0;
+  top: 500px;
+}
+
+.second-p {
+  text-align: right;
+}
+
+.my-work-section {
+  background-color: #d9d9d9;
+}
+
+h3 {
+  font-weight: 800;
+}
+
+.my-work-button {
+  background: linear-gradient(266.47deg, #7b9e7b 9.69%, #424183 88.47%);
+  padding: 17px 35px;
+  border-radius: 36px;
   color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 770px) {
+  .hero-section img {
+    width: 350px;
+  }
+
+  .about-section .photo {
+    display: none;
+  }
+
+  p {
+    font-size: 18px !important;
+    text-align: left;
+  }
 }
