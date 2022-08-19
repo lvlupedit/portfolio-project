@@ -1,3 +1,39 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+.navbar {
+  font-size: 2vw;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+a:hover {
+  color: #d9d9d9 !important;
+}
+
+.hero-section {
+  background-image: url(/visuals/hero-section.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.hero-text {
+  max-width: fit-content;
+}
+
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 9vw;
+  font-weight: 800;
+  color: #ffffff;
+  max-width: 650px;
+}
+
+.hero-p {
+  font-size: 2vw;
+  color: #ffffff;
+}
