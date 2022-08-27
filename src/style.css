@@ -143,4 +143,15 @@ h3 {
     font-size: 18px !important;
     text-align: left !important;
   }
+
+  .about-section p {
+    display: block;
+  }
+
+  .about-content,
+  .hero-text,
+  .work,
+  .contact-content {
+    max-width: 100%;
+  }
 }
